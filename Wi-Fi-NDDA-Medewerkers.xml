@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>NDDA-Medewerkers</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4E4444412D4D6564657765726B657273</hex>
+			<name>NDDA-Medewerkers</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB010000005E830E041636AC4A9485623EE3F00ADE00000000020000000000106600000001000020000000658FF6EFC7DBCAC5533072589C94DB3D63BCC11246FBAD27F18C88CB6BC6AE8C000000000E8000000002000020000000429BC34E2FAE7A865EB4F3286CB375419FC5B2CF3148AF419CD578D2A8840783200000002B93E526F9DA8AEA5D1DB47478AA8386F47A360CF3C8156BF9D3E1C344B4CF9E400000003F3F87ABFDCC1C4E209AFF898CE2E915B644F81BAB47630726C548FE2DECB3C5E9B82605A72DC3E067A0058B68B0B8308DE9498223C7EF696F77161E81644A3E</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3414304678</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
